@@ -1,0 +1,40 @@
+#menu{
+  ul{
+    width: 190px;
+    height: 513px;
+    border: 1px solid #ff5000;
+    font-size: 14px;
+    background: #fff;
+    padding-top: 5px;
+    padding-bottom: 3px;
+    a{
+      color: #666666;
+    }
+    li{
+      height: 32px;
+      line-height: 32px;
+      padding-left: 25px;
+      padding-right: 10px;
+      position: relative;
+      .iconfont{
+        width: 10px;
+        height: 10px;
+        font-size: 10px;
+        position: absolute;
+        right: 13px;
+      }
+    }
+    li:hover a{
+      color: red;
+    }
+    li:hover{
+      background: #f29d9d;
+    }
+    li:hover .iconfont{
+      color: red;
+    }
+
+  }
+}
+
+
