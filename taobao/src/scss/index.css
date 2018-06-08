@@ -243,7 +243,9 @@ button, input, select, textarea {
   background: url("../img/TB1JxVSs4GYBuNjy0FnXXX5lpXa-360-795.png") repeat-x; }
   .container .wrapper {
     width: 1190px;
-    margin: 0 auto; }
+    margin: 0 auto;
+    background: #f4f4f4;
+    height: 3000px; }
 
 #search {
   height: 140px;
@@ -406,33 +408,229 @@ button, input, select, textarea {
     height: 30px;
     float: left; }
 
-#menu ul {
-  width: 190px;
-  height: 513px;
-  border: 1px solid #ff5000;
-  font-size: 14px;
+#menu {
+  float: left; }
+  #menu ul {
+    width: 190px;
+    height: 513px;
+    border: 1px solid #ff5000;
+    font-size: 14px;
+    background: #fff;
+    padding-top: 5px;
+    padding-bottom: 3px; }
+    #menu ul a {
+      color: #666666; }
+    #menu ul li {
+      height: 32px;
+      line-height: 32px;
+      padding-left: 25px;
+      padding-right: 10px;
+      position: relative; }
+      #menu ul li .iconfont {
+        width: 10px;
+        height: 10px;
+        font-size: 10px;
+        position: absolute;
+        right: 13px; }
+    #menu ul li:hover a {
+      color: red; }
+    #menu ul li:hover {
+      background: #f29d9d; }
+    #menu ul li:hover .iconfont {
+      color: red; }
+
+#slideShow {
+  width: 520px;
+  height: 510px;
+  margin: 10px;
+  float: left; }
+  #slideShow .inner {
+    margin-top: 10px;
+    position: relative;
+    margin-bottom: -3px; }
+  #slideShow .inner span {
+    display: block;
+    width: 136px;
+    height: 19px;
+    background: url("../img/tmlogo.png") no-repeat;
+    float: left; }
+  #slideShow em {
+    font-size: 12px;
+    line-height: 19px;
+    margin-left: 10px;
+    font-style: normal; }
+  #slideShow strong {
+    position: absolute;
+    right: 0;
+    top: 0;
+    font-weight: normal; }
+
+#slideShow .slide_bottom {
+  width: 520px;
+  height: 200px;
+  border-top: 2px solid red;
+  background: #fff; }
+  #slideShow .slide_bottom div {
+    margin-top: 22px;
+    margin-left: 5px; }
+    #slideShow .slide_bottom div img {
+      display: inline-block;
+      width: 250px;
+      height: 155px;
+      margin-right: 5px; }
+
+.hot {
+  width: 160px;
+  height: 510px;
+  margin-top: 10px;
+  float: left; }
+  .hot .hot_bottom {
+    margin-top: 10px; }
+    .hot .hot_bottom span {
+      font-size: 12px;
+      color: #a1a1a1; }
+
+#regsiter {
+  width: 288px;
+  height: 642px;
+  border: 1px solid red;
+  margin-top: 10px;
+  float: right;
+  background: #fff; }
+  #regsiter .member {
+    width: 288px;
+    height: 91px; }
+    #regsiter .member .r_m_t {
+      width: 50px;
+      height: 50px;
+      margin-left: 120px;
+      margin-top: 10px;
+      border-radius: 50%;
+      background: url("../img/touxiang.jpg") no-repeat; }
+    #regsiter .member p {
+      text-align: center;
+      line-height: 17px;
+      font-size: 12px; }
+    #regsiter .member .r_m_b {
+      margin-left: 10px;
+      margin-top: 30px; }
+      #regsiter .member .r_m_b a {
+        display: block;
+        width: 85px;
+        height: 25px;
+        background: #ff5601;
+        border-radius: 5px;
+        float: left;
+        margin-right: 5px;
+        text-align: center;
+        line-height: 25px;
+        color: #fff;
+        font-weight: bolder;
+        text-decoration: none; }
+
+#regsiter .member {
+  background-image: url("../img/bgggggggg.png");
+  background-repeat: no-repeat;
+  background-size: cover; }
+
+#regsiter > a {
+  display: block;
+  width: 288px;
+  height: 26px;
+  background: #ffe4dd;
+  margin-top: 50px;
+  color: #ff4400;
+  line-height: 26px;
+  text-align: center;
+  font-size: 12px;
+  text-decoration: none; }
+  #regsiter > a .icon-sanjiaoxing-right {
+    font-size: 15px;
+    color: red;
+    margin-left: 20px; }
+
+#regsiter .tab {
+  width: 288px;
+  height: 108px; }
+  #regsiter .tab .tab_top {
+    height: 24px;
+    margin-left: 17px;
+    margin-top: 17px; }
+    #regsiter .tab .tab_top li {
+      float: left;
+      margin-right: 30px; }
+      #regsiter .tab .tab_top li a {
+        color: #3c3c3c;
+        text-decoration: none;
+        font-size: 12px;
+        line-height: 24px; }
+  #regsiter .tab .tab_bottom {
+    height: 65px; }
+    #regsiter .tab .tab_bottom a {
+      display: inline-block;
+      font-size: 12px;
+      line-height: 32px;
+      margin-left: 12px;
+      color: #ff5000;
+      text-decoration: none; }
+
+#regsiter .icon li {
+  width: 70px;
+  height: 77px;
   background: #fff;
-  padding-top: 5px;
-  padding-bottom: 3px; }
-  #menu ul a {
-    color: #666666; }
-  #menu ul li {
-    height: 32px;
-    line-height: 32px;
-    padding-left: 25px;
-    padding-right: 10px;
-    position: relative; }
-    #menu ul li .iconfont {
-      width: 10px;
-      height: 10px;
-      font-size: 10px;
-      position: absolute;
-      right: 13px; }
-  #menu ul li:hover a {
+  border-top: 1px solid #f4f4f4;
+  border-right: 1px solid #f4f4f4;
+  float: left; }
+  #regsiter .icon li a {
+    width: 70px;
+    height: 64px;
+    text-align: center;
+    text-decoration: none; }
+    #regsiter .icon li a .iconfont {
+      margin-top: 13px;
+      display: inline-block;
+      width: 24px;
+      height: 24px;
+      font-size: 24px;
+      margin-left: 26px;
+      margin-bottom: 8px; }
+    #regsiter .icon li a p {
+      color: #333333;
+      font-size: 12px; }
+  #regsiter .icon li a:hover p {
     color: red; }
-  #menu ul li:hover {
-    background: #f29d9d; }
-  #menu ul li:hover .iconfont {
-    color: red; }
+
+#regsiter .icon:after {
+  content: '';
+  display: block;
+  clear: both; }
+
+#regsiter .app div {
+  width: 290px;
+  height: 30px; }
+  #regsiter .app div h3 {
+    line-height: 30px;
+    display: inline-block;
+    margin-left: 15px; }
+  #regsiter .app div a {
+    display: inline-block;
+    margin-left: 140px;
+    color: #3c3c3c;
+    font-size: 12px;
+    text-decoration: none; }
+#regsiter .app ul {
+  width: 290px;
+  height: 84px; }
+  #regsiter .app ul li {
+    margin-left: 21px;
+    float: left; }
+    #regsiter .app ul li a {
+      display: block;
+      width: 32px;
+      height: 32px;
+      margin-bottom: 5px; }
+      #regsiter .app ul li a img {
+        display: inline-block;
+        width: 100%; }
 
 /*# sourceMappingURL=index.css.map */

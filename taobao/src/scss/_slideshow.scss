@@ -1,0 +1,59 @@
+#slideShow{
+  width: 520px;
+  height: 510px;
+  margin: 10px;
+  float: left;
+  .inner{
+    margin-top: 10px;
+    position: relative;
+    margin-bottom: -3px;
+  }
+  .inner span{
+    display: block;
+    width: 136px;
+    height: 19px;
+    background: url("../img/tmlogo.png") no-repeat;
+    float: left;
+  }
+  em{
+    font-size: 12px;
+    line-height: 19px;
+    margin-left: 10px;
+    font-style: normal;
+  }
+  strong{
+    position: absolute;
+    right: 0;
+    top: 0;
+    font-weight: normal;
+  }
+}
+#slideShow .slide_bottom{
+  width: 520px;
+  height: 200px;
+  border-top: 2px solid red;
+  background: #fff;
+  div{
+    margin-top: 22px;
+    margin-left: 5px;
+    img{
+      display: inline-block;
+      width: 250px;
+      height: 155px;
+      margin-right: 5px;
+    }
+  }
+}
+.hot{
+  width: 160px;
+  height: 510px;
+  margin-top: 10px;
+  float: left;
+  .hot_bottom{
+    margin-top: 10px;
+    span{
+      font-size: 12px;
+      color:#a1a1a1;
+    }
+  }
+}

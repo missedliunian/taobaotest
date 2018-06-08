@@ -1,0 +1,175 @@
+#regsiter{
+  width: 288px;
+  height: 642px;
+  border: 1px solid red;
+  margin-top: 10px;
+  float: right;
+  background: #fff;
+  .member{
+    width: 288px;
+    height: 91px;
+    .r_m_t{
+      width: 50px;
+      height: 50px;
+      margin-left: 120px;
+      margin-top: 10px;
+      border-radius: 50%;
+      background: url("../img/touxiang.jpg") no-repeat;
+    }
+    p{
+      text-align: center;
+      line-height: 17px;
+      font-size: 12px;
+    }
+    .r_m_b{
+      margin-left: 10px;
+      margin-top: 30px;
+      a{
+        display: block;
+        width: 85px;
+        height: 25px;
+        background: #ff5601;
+        border-radius: 5px;
+        float: left;
+        margin-right: 5px;
+        text-align: center;
+        line-height: 25px;
+        color: #fff;
+        font-weight: bolder;
+        text-decoration: none;
+      }
+    }
+
+  }
+}
+#regsiter .member{
+  background-image: url("../img/bgggggggg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#regsiter>a{
+  display: block;
+  width: 288px;
+  height: 26px;
+  background: #ffe4dd;
+  margin-top: 50px;
+  color: #ff4400;
+  line-height: 26px;
+  text-align: center;
+  font-size: 12px;
+  text-decoration: none;
+  .icon-sanjiaoxing-right{
+    font-size: 15px;
+    color: red;
+    margin-left: 20px;
+  }
+}
+#regsiter  .tab{
+  width: 288px;
+  height: 108px;
+  .tab_top{
+    height: 24px;
+    margin-left: 17px;
+    margin-top: 17px;
+    li{
+      float: left;
+      margin-right: 30px;
+      a{
+        color: #3c3c3c;
+        text-decoration: none;
+        font-size: 12px;
+        line-height: 24px;
+      }
+    }
+  }
+  .tab_bottom{
+    height: 65px;
+    a{
+      display: inline-block;
+      font-size: 12px;
+      line-height: 32px;
+      margin-left: 12px;
+      color:#ff5000;
+      text-decoration: none;
+    }
+  }
+
+}
+#regsiter .icon{
+  li{
+    width: 70px;
+    height: 77px;
+    background: #fff;
+    border-top: 1px solid #f4f4f4;
+    border-right: 1px solid #f4f4f4;
+    float: left;
+    a{
+      width: 70px;
+      height: 64px;
+      text-align: center;
+      text-decoration: none;
+      .iconfont{
+        margin-top: 13px;
+        display: inline-block;
+        width: 24px;
+        height: 24px;
+        font-size: 24px;
+        margin-left: 26px;
+        margin-bottom: 8px;
+      }
+      p{
+        color:#333333;
+        font-size: 12px;
+      }
+    }
+    a:hover p{
+      color: red;
+    }
+  }
+}
+#regsiter .icon:after{
+  content: '';
+  display: block;
+  clear: both;
+}
+
+
+#regsiter .app{
+  div{
+    width: 290px;
+    height: 30px;
+    h3{
+      line-height: 30px;
+      display: inline-block;
+      margin-left: 15px;
+    }
+    a{
+      display: inline-block;
+      margin-left: 140px;
+      color: #3c3c3c;
+      font-size: 12px;
+      text-decoration: none;
+    }
+  }
+  ul{
+    width: 290px;
+    height: 84px;
+    li{
+      margin-left: 21px;
+      float: left;
+      a{
+        display: block;
+        width: 32px;
+        height: 32px;
+
+        margin-bottom: 5px;
+        img{
+          display: inline-block;
+          width: 100%;
+        }
+      }
+    }
+
+  }
+}
+
