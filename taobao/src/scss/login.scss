@@ -1,0 +1,94 @@
+@import "reset";
+#login{
+  margin: 0 auto;
+  background: #fae7f0;
+  width: 325px;
+  height: 351px;
+  border: 1px solid red;
+  padding-left: 25px;
+  form{
+    width: 300px;
+    h2{
+      height: 18px;
+      line-height: 18px;
+      font-size: 16px;
+      color: #3c3c3c;
+      font-weight: 700;
+      margin-top: 35px;
+      margin-bottom: 25px;
+    }
+    p{
+      width: 300px;
+      height: 40px;
+      position: relative;
+      margin-bottom: 20px;
+      input{
+        width: 255px;
+        height: 40px;
+        padding-left: 45px;
+      }
+      .iconfont{
+        display: block;
+        width: 41px;
+        height: 42px;
+        font-size: 40px;
+        color: #fff;
+        background: #dddddd;
+        position: absolute;
+        left: 1px;
+        top: 1px;
+
+      }
+
+    }
+    button{
+      width: 300px;
+      height: 42px;
+      border: 0;
+      background: #ff4400;
+      color:#fff;
+      font-weight: bolder;
+    }
+    div{
+      margin-top: 20px;
+      height: 40px;
+      a{
+        display: block;
+        width: 80px;
+        height: 15px;
+        font-size: 12px;
+        color: #6c6c6c;
+        float: left;
+        .iconfont{
+          width: 16px;
+          height: 16px;
+          font-size: 16px;
+        }
+        .icon-weibo{
+          color: red;
+        }
+        .icon-zhifubao{
+          color: #75aeee;
+        }
+      }
+    }
+
+    ul{
+      padding-left: 95px;
+      height: 18px;
+      li{
+        float: left;
+        a{
+          display: inline-block;
+          font-size: 12px;
+          color: #6c6c6c;
+          margin-right: 15px;
+          text-decoration: none;
+        }
+        a:hover{
+          color: red;
+        }
+      }
+    }
+  }
+}

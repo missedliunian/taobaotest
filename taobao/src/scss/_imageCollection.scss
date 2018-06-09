@@ -1,0 +1,168 @@
+.live{
+  margin-top: 10px;
+  width: 1190px;
+  height: 166px;
+  background: #fff;
+  margin-bottom: 10px;
+  ul{
+    li{
+      width:194px;
+      height: 82px;
+      background: #9c7dff;
+      float: left;
+    }
+  }
+}
+
+
+.specialHead{
+  margin: 0 0 20px 20px;
+  padding-top: 20px;
+  height: 24px;
+  h3{
+    position: relative;
+    height: 24px;
+    span{
+      font-size: 12px;
+      height: 24px;
+      color: #999999;
+      position: absolute;
+      left: 100px;
+      top: 5px;
+    }
+    img{
+      display: inline-block;
+      width: 74px;
+      height: 24px;
+    }
+  }
+}
+
+
+
+.goodsShoping{
+  width: 1190px;
+  height: 658px;
+  margin-bottom: 10px;
+  .goods{
+    width: 590px;
+    height: 658px;
+    margin-right: 10px;
+    background: #fff;
+    float: left;
+    .goods_bottom{
+      height: 594px;
+    }
+  }
+  .shoping{
+    width: 590px;
+    height: 658px;
+    background: #fff;
+    float: left;
+  }
+}
+
+
+.runOn{
+  width: 100%;
+  margin-bottom: 10px;
+  height: 264px;
+  background: #fff;
+}
+.AD{
+  margin-bottom: 10px;
+}
+
+
+.storeDirect{
+  width: 100%;
+  height: 538px;
+  margin-bottom: 10px;
+  .store{
+    width: 590px;
+    height:540px;
+    margin-right: 10px;
+    background: #fff;
+    float: left;
+  }
+  .direct{
+    width: 590px;
+    height: 540px;
+    background: #fff;
+    float: left;
+  }
+}
+
+
+
+
+.qualityFeature{
+  width: 100%;
+  height: 768px;
+  margin-bottom: 10px;
+  .quality{
+    width: 590px;
+    height:768px;
+    margin-right: 10px;
+    background: #fff;
+    float: left;
+  }
+  .feature{
+    width: 590px;
+    height: 768px;
+    background: #fff;
+    float: left;
+  }
+}
+
+.specialHeader{
+  width: 590px;
+  height: 49px;
+  position: relative;
+  em{
+    width: 558px;
+    height: 48px;
+    line-height: 48px;
+    font-size: 20px;
+    color:#28abff;
+    margin-left: 48px;
+  }
+}
+.specialHeader:before{
+  content: '';
+  position: absolute;
+  width: 4px;
+  height: 16px;
+  top: 16px;
+  left: 20px;
+  background: #28abff;
+}
+
+.professional{
+  height: 256px;
+  width: 100%;
+  margin-bottom: 10px;
+  background: #fff;
+}
+
+
+.hotOne{
+  width: 100%;
+  height: 962px;
+  background: #fff;
+  p{
+    margin-left: 20px;
+    height: 33px;
+    border-bottom: 1px solid #e6e2e1;
+    a{
+      display: inline-block;
+      color:#999999;
+      font-size: 12px;
+      line-height: 20px;
+      text-decoration: none;
+    }
+    a:hover{
+      color: red;
+    }
+  }
+}

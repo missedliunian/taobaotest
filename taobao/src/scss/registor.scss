@@ -1,0 +1,29 @@
+@import "reset";
+form{
+  width: 350px;
+  height: 320px;
+  margin-left: 100px;
+  p{
+    margin-top: 20px;
+    label{
+      display: inline-block;
+      font-size: 16px;
+      width: 100px;
+      text-align: right;
+    }
+  }
+  input{
+    width: 220px;
+    height: 36px;
+  }
+  input[type='submit']{
+    width: 180px;
+    height: 35px;
+    background: #ff4001;
+    border: 0;
+    color: #fff;
+    font-weight: bolder;
+    margin-left: 85px;
+    cursor: pointer;
+  }
+}

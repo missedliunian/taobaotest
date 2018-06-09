@@ -1,7 +1,6 @@
 #regsiter{
   width: 288px;
   height: 642px;
-  border: 1px solid red;
   margin-top: 10px;
   float: right;
   background: #fff;
@@ -173,3 +172,54 @@
   }
 }
 
+#more{
+  width: 892px;
+  height: 122px;
+  margin-top: 10px;
+  overflow: hidden;
+  background: #fff;
+  div{
+    float: left;
+    h3{
+      font-size: 30px;
+      font-weight: bolder;
+      color: #000;
+      margin-top: 25px;
+      padding-left: 20px;
+    }
+    p{
+      padding-left: 20px;
+      color: #999999;
+      padding-top: 5px;
+      font-size: 12px;
+    }
+  }
+  a{
+    display: block;
+    float: left;
+    margin-left: 60px;
+    margin-top: 20px;
+    img{
+      float: left;
+    }
+    div{
+      width: 520px;
+      margin-left: 15px;
+      h4{
+        color: #333333;
+        font-size: 16px;
+        position: relative;
+        span{
+          position: absolute;
+          right: -20px;
+          font-size: 12px;
+          color: #999999;
+        }
+      }
+      p{
+        padding-left: 0;
+        font-size: 14px;
+      }
+    }
+  }
+}

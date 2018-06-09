@@ -1,0 +1,66 @@
+body, h1, h2, h3, h4, h5, h6, hr, p, blockquote, dl, dt, dd, ul, ol, li, pre, form, fieldset, legend, button, input, textarea, th, td {
+  margin: 0;
+  padding: 0; }
+
+body, button, input, select, textarea {
+  font: 12px/1.5tahoma, arial, \5b8b\4f53; }
+
+h1, h2, h3, h4, h5, h6 {
+  font-size: 100%; }
+
+address, cite, dfn, em, var {
+  font-style: normal; }
+
+code, kbd, pre, samp {
+  font-family: couriernew, courier, monospace; }
+
+small {
+  font-size: 12px; }
+
+ul, ol {
+  list-style: none; }
+
+a {
+  text-decoration: none; }
+
+a:hover {
+  text-decoration: underline; }
+
+sup {
+  vertical-align: text-top; }
+
+sub {
+  vertical-align: text-bottom; }
+
+legend {
+  color: #000; }
+
+fieldset, img {
+  border: 0; }
+
+button, input, select, textarea {
+  font-size: 100%; }
+
+form {
+  width: 350px;
+  height: 320px;
+  margin-left: 100px; }
+  form p {
+    margin-top: 20px; }
+    form p label {
+      display: inline-block;
+      font-size: 16px;
+      width: 100px;
+      text-align: right; }
+  form input {
+    width: 220px;
+    height: 36px; }
+  form input[type='submit'] {
+    width: 180px;
+    height: 35px;
+    background: #ff4001;
+    border: 0;
+    color: #fff;
+    font-weight: bolder;
+    margin-left: 85px;
+    cursor: pointer; }

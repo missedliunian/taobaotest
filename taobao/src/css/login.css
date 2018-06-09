@@ -1,0 +1,117 @@
+body, h1, h2, h3, h4, h5, h6, hr, p, blockquote, dl, dt, dd, ul, ol, li, pre, form, fieldset, legend, button, input, textarea, th, td {
+  margin: 0;
+  padding: 0; }
+
+body, button, input, select, textarea {
+  font: 12px/1.5tahoma, arial, \5b8b\4f53; }
+
+h1, h2, h3, h4, h5, h6 {
+  font-size: 100%; }
+
+address, cite, dfn, em, var {
+  font-style: normal; }
+
+code, kbd, pre, samp {
+  font-family: couriernew, courier, monospace; }
+
+small {
+  font-size: 12px; }
+
+ul, ol {
+  list-style: none; }
+
+a {
+  text-decoration: none; }
+
+a:hover {
+  text-decoration: underline; }
+
+sup {
+  vertical-align: text-top; }
+
+sub {
+  vertical-align: text-bottom; }
+
+legend {
+  color: #000; }
+
+fieldset, img {
+  border: 0; }
+
+button, input, select, textarea {
+  font-size: 100%; }
+
+#login {
+  margin: 0 auto;
+  background: #fae7f0;
+  width: 325px;
+  height: 351px;
+  border: 1px solid red;
+  padding-left: 25px; }
+  #login form {
+    width: 300px; }
+    #login form h2 {
+      height: 18px;
+      line-height: 18px;
+      font-size: 16px;
+      color: #3c3c3c;
+      font-weight: 700;
+      margin-top: 35px;
+      margin-bottom: 25px; }
+    #login form p {
+      width: 300px;
+      height: 40px;
+      position: relative;
+      margin-bottom: 20px; }
+      #login form p input {
+        width: 255px;
+        height: 40px;
+        padding-left: 45px; }
+      #login form p .iconfont {
+        display: block;
+        width: 41px;
+        height: 42px;
+        font-size: 40px;
+        color: #fff;
+        background: #dddddd;
+        position: absolute;
+        left: 1px;
+        top: 1px; }
+    #login form button {
+      width: 300px;
+      height: 42px;
+      border: 0;
+      background: #ff4400;
+      color: #fff;
+      font-weight: bolder; }
+    #login form div {
+      margin-top: 20px;
+      height: 40px; }
+      #login form div a {
+        display: block;
+        width: 80px;
+        height: 15px;
+        font-size: 12px;
+        color: #6c6c6c;
+        float: left; }
+        #login form div a .iconfont {
+          width: 16px;
+          height: 16px;
+          font-size: 16px; }
+        #login form div a .icon-weibo {
+          color: red; }
+        #login form div a .icon-zhifubao {
+          color: #75aeee; }
+    #login form ul {
+      padding-left: 95px;
+      height: 18px; }
+      #login form ul li {
+        float: left; }
+        #login form ul li a {
+          display: inline-block;
+          font-size: 12px;
+          color: #6c6c6c;
+          margin-right: 15px;
+          text-decoration: none; }
+        #login form ul li a:hover {
+          color: red; }

@@ -41,6 +41,9 @@ fieldset, img {
 button, input, select, textarea {
   font-size: 100%; }
 
+body {
+  background: #f4f4f4; }
+
 #header {
   width: 100%;
   height: 36px;
@@ -244,8 +247,10 @@ button, input, select, textarea {
   .container .wrapper {
     width: 1190px;
     margin: 0 auto;
-    background: #f4f4f4;
-    height: 3000px; }
+    background: #f4f4f4; }
+
+.footer {
+  cursor: pointer; }
 
 #search {
   height: 140px;
@@ -493,7 +498,6 @@ button, input, select, textarea {
 #regsiter {
   width: 288px;
   height: 642px;
-  border: 1px solid red;
   margin-top: 10px;
   float: right;
   background: #fff; }
@@ -632,5 +636,181 @@ button, input, select, textarea {
       #regsiter .app ul li a img {
         display: inline-block;
         width: 100%; }
+
+#more {
+  width: 892px;
+  height: 122px;
+  margin-top: 10px;
+  overflow: hidden;
+  background: #fff; }
+  #more div {
+    float: left; }
+    #more div h3 {
+      font-size: 30px;
+      font-weight: bolder;
+      color: #000;
+      margin-top: 25px;
+      padding-left: 20px; }
+    #more div p {
+      padding-left: 20px;
+      color: #999999;
+      padding-top: 5px;
+      font-size: 12px; }
+  #more a {
+    display: block;
+    float: left;
+    margin-left: 60px;
+    margin-top: 20px; }
+    #more a img {
+      float: left; }
+    #more a div {
+      width: 520px;
+      margin-left: 15px; }
+      #more a div h4 {
+        color: #333333;
+        font-size: 16px;
+        position: relative; }
+        #more a div h4 span {
+          position: absolute;
+          right: -20px;
+          font-size: 12px;
+          color: #999999; }
+      #more a div p {
+        padding-left: 0;
+        font-size: 14px; }
+
+.live {
+  margin-top: 10px;
+  width: 1190px;
+  height: 166px;
+  background: #fff;
+  margin-bottom: 10px; }
+  .live ul li {
+    width: 194px;
+    height: 82px;
+    background: #9c7dff;
+    float: left; }
+
+.specialHead {
+  margin: 0 0 20px 20px;
+  padding-top: 20px;
+  height: 24px; }
+  .specialHead h3 {
+    position: relative;
+    height: 24px; }
+    .specialHead h3 span {
+      font-size: 12px;
+      height: 24px;
+      color: #999999;
+      position: absolute;
+      left: 100px;
+      top: 5px; }
+    .specialHead h3 img {
+      display: inline-block;
+      width: 74px;
+      height: 24px; }
+
+.goodsShoping {
+  width: 1190px;
+  height: 658px;
+  margin-bottom: 10px; }
+  .goodsShoping .goods {
+    width: 590px;
+    height: 658px;
+    margin-right: 10px;
+    background: #fff;
+    float: left; }
+    .goodsShoping .goods .goods_bottom {
+      height: 594px; }
+  .goodsShoping .shoping {
+    width: 590px;
+    height: 658px;
+    background: #fff;
+    float: left; }
+
+.runOn {
+  width: 100%;
+  margin-bottom: 10px;
+  height: 264px;
+  background: #fff; }
+
+.AD {
+  margin-bottom: 10px; }
+
+.storeDirect {
+  width: 100%;
+  height: 538px;
+  margin-bottom: 10px; }
+  .storeDirect .store {
+    width: 590px;
+    height: 540px;
+    margin-right: 10px;
+    background: #fff;
+    float: left; }
+  .storeDirect .direct {
+    width: 590px;
+    height: 540px;
+    background: #fff;
+    float: left; }
+
+.qualityFeature {
+  width: 100%;
+  height: 768px;
+  margin-bottom: 10px; }
+  .qualityFeature .quality {
+    width: 590px;
+    height: 768px;
+    margin-right: 10px;
+    background: #fff;
+    float: left; }
+  .qualityFeature .feature {
+    width: 590px;
+    height: 768px;
+    background: #fff;
+    float: left; }
+
+.specialHeader {
+  width: 590px;
+  height: 49px;
+  position: relative; }
+  .specialHeader em {
+    width: 558px;
+    height: 48px;
+    line-height: 48px;
+    font-size: 20px;
+    color: #28abff;
+    margin-left: 48px; }
+
+.specialHeader:before {
+  content: '';
+  position: absolute;
+  width: 4px;
+  height: 16px;
+  top: 16px;
+  left: 20px;
+  background: #28abff; }
+
+.professional {
+  height: 256px;
+  width: 100%;
+  margin-bottom: 10px;
+  background: #fff; }
+
+.hotOne {
+  width: 100%;
+  height: 962px;
+  background: #fff; }
+  .hotOne p {
+    margin-left: 20px;
+    height: 33px;
+    border-bottom: 1px solid #e6e2e1; }
+    .hotOne p a {
+      display: inline-block;
+      color: #999999;
+      font-size: 12px;
+      line-height: 20px;
+      text-decoration: none; }
+    .hotOne p a:hover {
+      color: red; }
 
 /*# sourceMappingURL=index.css.map */
