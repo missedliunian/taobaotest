@@ -42,6 +42,7 @@ button, input, select, textarea {
   font-size: 100%; }
 
 form {
+  border: 1px solid red;
   width: 350px;
   height: 320px;
   margin-left: 100px; }

@@ -26,7 +26,7 @@ gulp.task('uglifyhtml',function () {
 
 //监听源html文件
 gulp.task('watchhtml',function () {
-    gulp.watch('html/!*.html',function () {
+    gulp.watch('html/*.html',function () {
         gulp.run('uglifyhtml');
     })
 
