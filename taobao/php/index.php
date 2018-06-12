@@ -50,6 +50,22 @@ for($i=0;$i<mysql_num_rows($store);$i++){
 
 }
 
+//直播
+$direct=mysql_query("select * from direct");//选择表live的所有记录
+$direct_arr=array();
+for($i=0;$i<mysql_num_rows($direct);$i++){
+    $direct_arr[$i]=mysql_fetch_array($direct,MYSQLI_ASSOC);
+
+}
+
+//hotone
+$hotone=mysql_query("select * from hotone");//选择表live的所有记录
+$hotone_arr=array();
+for($i=0;$i<mysql_num_rows($hotone);$i++){
+    $hotone_arr[$i]=mysql_fetch_array($hotone,MYSQLI_ASSOC);
+
+}
+
 //创建复杂接口
 class indexdata{
 	}
@@ -60,6 +76,8 @@ $index->goods=$goods_arr;
 $index->shoping=$shoping_arr;
 $index->runon=$runon_arr;
 $index->store=$store_arr;
+$index->hotone=$hotone_arr;
+$index->direct=$direct_arr;
 
 
 echo json_encode($index);//将数据接口输出给前端

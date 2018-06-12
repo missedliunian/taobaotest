@@ -252,6 +252,33 @@ body {
 .footer {
   cursor: pointer; }
 
+.fixed_right {
+  display: none;
+  width: 50px;
+  height: 190px;
+  position: fixed;
+  top: 300px;
+  right: 0;
+  margin-top: -100px;
+  background: #fff;
+  z-index: 20; }
+  .fixed_right a {
+    display: block;
+    font-size: 12px;
+    width: 30px;
+    height: 30px;
+    line-height: 15px;
+    text-align: center;
+    text-decoration: none;
+    color: red;
+    margin-bottom: 7px;
+    padding: 10px;
+    border-radius: 5px; }
+  .fixed_right a:hover {
+    background: #ff6508;
+    color: #fff;
+    font-weight: bolder; }
+
 #search {
   height: 140px;
   background: #fff;
@@ -289,7 +316,7 @@ body {
   background: #f5baba; }
 
 #search .searchBox {
-  width: 556px;
+  width: 610px;
   height: 40px;
   border: 2px solid #ff5000;
   border-right: 0;
@@ -449,8 +476,22 @@ body {
   height: 510px;
   margin: 10px;
   float: left; }
-  #slideShow ul {
+  #slideShow .slideShow_girl {
+    width: 520px;
     height: 280px; }
+    #slideShow .slideShow_girl ul {
+      width: 3640px;
+      height: 280px;
+      position: absolute;
+      left: -520px; }
+      #slideShow .slideShow_girl ul li {
+        float: left;
+        width: 520px;
+        height: 280px; }
+        #slideShow .slideShow_girl ul li img {
+          display: block;
+          width: 520px;
+          height: 280px; }
   #slideShow .inner {
     margin-top: 10px;
     position: relative;
@@ -496,6 +537,55 @@ body {
     .hot .hot_bottom span {
       font-size: 12px;
       color: #a1a1a1; }
+
+.slide_top {
+  width: 520px;
+  height: 280px;
+  position: relative;
+  overflow: hidden; }
+  .slide_top ol {
+    width: 70px;
+    height: 13px;
+    border-radius: 10px;
+    position: absolute;
+    bottom: 15px;
+    text-align: center;
+    font-size: 0;
+    left: 50%;
+    margin-left: -39px;
+    background-color: rgba(255, 255, 255, 0.3); }
+    .slide_top ol li {
+      width: 8px;
+      height: 8px;
+      border-radius: 50%;
+      float: left;
+      margin: 3px;
+      background: #fff;
+      cursor: pointer; }
+  .slide_top a {
+    width: 20px;
+    height: 20px;
+    background: black;
+    position: absolute;
+    font-size: 20px;
+    color: #fff;
+    text-decoration: none;
+    text-align: center;
+    line-height: 20px;
+    border-radius: 50%; }
+  .slide_top .slide_top_left {
+    left: 0;
+    top: 50%;
+    margin-top: -10px;
+    display: none; }
+  .slide_top .slide_top_right {
+    right: 0;
+    top: 50%;
+    margin-top: -10px;
+    display: none; }
+
+#active {
+  background: red; }
 
 #regsiter {
   width: 288px;
@@ -564,7 +654,8 @@ body {
     margin-top: 17px; }
     #regsiter .tab .tab_top li {
       float: left;
-      margin-right: 30px; }
+      margin-right: 30px;
+      border-bottom: 2px solid #fff; }
       #regsiter .tab .tab_top li a {
         color: #3c3c3c;
         text-decoration: none;
@@ -971,10 +1062,13 @@ body {
     .hotOne p a:hover {
       color: red; }
 
+.hotOne_big:hover {
+  border-color: red; }
+
 .hotOne_big {
   width: 237px;
-  height: 350px;
-  border: 1px solid red; }
+  height: 345px;
+  border: 1px solid #f4f4f4; }
   .hotOne_big .hotOne_top {
     margin-left: 20px;
     margin-top: 20px;
@@ -1022,6 +1116,7 @@ body {
   .last_images img {
     display: block;
     width: 375px;
-    height: 130px; }
+    height: 130px;
+    cursor: pointer; }
 
 /*# sourceMappingURL=index.css.map */

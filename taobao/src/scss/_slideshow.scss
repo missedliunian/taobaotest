@@ -3,9 +3,27 @@
   height: 510px;
   margin: 10px;
   float: left;
-  ul{
+  .slideShow_girl{
+    width: 520px;
     height: 280px;
+    ul{
+      width: 3640px;
+      height: 280px;
+      position: absolute;
+      left: -520px;
+      li{
+        float: left;
+        width: 520px;
+        height: 280px;
+        img{
+          display: block;
+          width: 520px;
+          height: 280px;
+        }
+      }
+    }
   }
+
   .inner{
     margin-top: 10px;
     position: relative;
@@ -59,4 +77,62 @@
       color:#a1a1a1;
     }
   }
+}
+
+
+.slide_top{
+  width: 520px;
+  height: 280px;
+  position: relative;
+  overflow: hidden;
+  ol{
+    width: 70px;
+    height: 13px;
+    border-radius: 10px;
+    position: absolute;
+    bottom: 15px;
+    text-align: center;
+    font-size: 0;
+    left: 50%;
+    margin-left: -39px;
+    background-color: rgba(255,255,255,.3);
+    li{
+      width: 8px;
+      height: 8px;
+      border-radius: 50%;
+      float: left;
+      margin: 3px;
+      background: #fff;
+      cursor: pointer;
+    }
+  }
+  a{
+    width: 20px;
+    height: 20px;
+    background: black;
+    position: absolute;
+    font-size: 20px;
+    color: #fff;
+    text-decoration: none;
+    text-align: center;
+    line-height: 20px;
+    border-radius: 50%;
+  }
+
+  .slide_top_left{
+    left: 0;
+    top: 50%;
+    margin-top: -10px;
+    display: none;
+  }
+  .slide_top_right{
+    right: 0;
+    top: 50%;
+    margin-top: -10px;
+    display: none;
+  }
+}
+
+#active{
+  background: red;
 }

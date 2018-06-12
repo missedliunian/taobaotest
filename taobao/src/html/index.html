@@ -8,8 +8,7 @@
     <link rel="stylesheet" href="../scss/index.css">
     <link rel="stylesheet" href="../font/font_dvniwrwa6sejnhfr/iconfont.css">
     <link rel="stylesheet" href="../font/font_zp6ysi3fz17qr529/iconfont.css">
-    <script src="http://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js"></script>
-    <script src="../script/js/ajax.js"></script>
+    <script async="true" src="../script/lib/require.js" data-main="../script/js/main.js"></script>
 </head>
 <body>
 <div id="header">
@@ -114,12 +113,15 @@
                         <li>天猫</li>
                         <li>店铺</li>
                     </ul>
-                    <div class="searchBox">
-                        <i class="iconfont icon-sousuo"></i>
-                        <input type="text" placeholder="泰国口红" autofocus="autofocus">
-                        <i class="iconfont icon-05"></i>
-                        <button>搜索</button>
+                    <div style="width: 610px;height: 40px;position: relative">
+                        <div class="searchBox">
+                            <i class="iconfont icon-sousuo"></i>
+                            <input type="text" placeholder="泰国口红" autofocus="autofocus">
+                            <i class="iconfont icon-05"></i>
+                            <button>搜索</button>
+                        </div>
                     </div>
+
                 </div>
                 <div class="sea_bot">
                     <a href="#">新款连衣裙</a>
@@ -269,27 +271,36 @@
 
         <div id="slideShow">
             <div class="slide_top">
-                <ul>
-                    <li><a href="#"><img src="../img/girl.webp" alt=""></a></li>
-                </ul>
+                <div class="slideShow_girl">
+                    <ul>
+                        <li><a href="#"><img src="https://img.alicdn.com/tfs/TB1uNLuw1OSBuNjy0FdXXbDnVXa-520-280.jpg_q90_.webp" alt=""></a></li>
+                        <li><a href="#"><img src="https://img.alicdn.com/tfs/TB1HaPww1uSBuNjy1XcXXcYjFXa-520-280.jpg_q90_.webp" alt=""></a></li>
+                        <li><a href="#"><img src="https://img.alicdn.com/simba/img/TB1p050SVXXXXbWXXXXSutbFXXX.jpg" alt=""></a></li>
+                        <li><a href="#"><img src="https://img.alicdn.com/simba/img/TB1Sygxw7KWBuNjy1zjSuwOypXa.jpg" alt=""></a></li>
+                        <li><a href="#"><img src="https://img.alicdn.com/simba/img/TB1ipLItMmTBuNjy1XbSuuMrVXa.jpg" alt=""></a></li>
+                        <li><a href="#"><img src="https://img.alicdn.com/tfs/TB1uNLuw1OSBuNjy0FdXXbDnVXa-520-280.jpg_q90_.webp" alt=""></a></li>
+                        <li><a href="#"><img src="https://img.alicdn.com/tfs/TB1HaPww1uSBuNjy1XcXXcYjFXa-520-280.jpg_q90_.webp" alt=""></a></li>
+                    </ul>
+                </div>
+
                 <ol>
+                    <li id="active"></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
                     <li></li>
                 </ol>
-                <a href="#" class="slide_top_left"></a>
-                <a href="#" class="slide_top_right"></a>
+                <a href="#" class="slide_top_left">&lt;</a>
+                <a href="#" class="slide_top_right">&gt;</a>
             </div>
             <div class="inner">
                 <span></span>
                 <em>理想生活上天猫</em>
-                <strong>
-                    <i>1</i>
-                    /6
-                </strong>
             </div>
             <div class="slide_bottom">
                 <div>
-                    <a href="#"><img src="../img/slide1.jpg" alt=""></a>
-                    <a href="#"><img src="../img/slide2.jpg" alt=""></a>
+                    <a href="#"><img src="https://img.alicdn.com/simba/img/TB11FXwlNuTBuNkHFNRSuw9qpXa.jpg" alt=""></a>
+                    <a href="#"><img src="https://aecpm.alicdn.com/tfscom/TB11fXbv_tYBeNjy1XdXXXXyVXa.jpg" alt=""></a>
                 </div>
             </div>
 
@@ -581,7 +592,7 @@
             </div>
 
             <div class="AD">
-                <img src="../img/qqww.jpg" alt="">
+                <img src="https://img.alicdn.com/simba/img/TB1ZqPHa3vD8KJjy0FlSuugBFXa.jpg" alt="">
             </div>
 
 
@@ -797,118 +808,131 @@
                 <a class="last_a" href="#">
                     <div class="hotOne_big">
                         <div class="hotOne_top">
-                            <img src="https://gma.alicdn.com/bao/uploaded/i1/15381762/TB2CKXNlCYH8KJjSspdXXcRgVXa_!!0-saturn_solar.jpg_200x200.jpg_.webp" alt="">
+                            <img src="" alt="">
                         </div>
                         <div class="hotOne_bottom">
                             <img src="https://img.alicdn.com/tfs/TB1APkObOIRMeJjy0FbXXbnqXXa-56-32.png" alt="">
-                            <span>简约时尚创意实木小凳子北欧个性换鞋凳小板</span>
+                            <span></span>
 
                         </div>
-                        <em>¥499</em>
+                        <em></em>
                     </div>
                 </a>
                 <a class="last_a" href="#">
                     <div class="hotOne_big">
                         <div class="hotOne_top">
-                            <img src="https://gma.alicdn.com/bao/uploaded/i1/15381762/TB2CKXNlCYH8KJjSspdXXcRgVXa_!!0-saturn_solar.jpg_200x200.jpg_.webp" alt="">
+                            <img src="" alt="">
                         </div>
                         <div class="hotOne_bottom">
                             <img src="https://img.alicdn.com/tfs/TB1APkObOIRMeJjy0FbXXbnqXXa-56-32.png" alt="">
-                            <span>简约时尚创意实木小凳子北欧个性换鞋凳小板</span>
+                            <span></span>
 
                         </div>
-                        <em>¥499</em>
+                        <em></em>
                     </div>
                 </a>
                 <a class="last_a" href="#">
                     <div class="hotOne_big">
                         <div class="hotOne_top">
-                            <img src="https://gma.alicdn.com/bao/uploaded/i1/15381762/TB2CKXNlCYH8KJjSspdXXcRgVXa_!!0-saturn_solar.jpg_200x200.jpg_.webp" alt="">
+                            <img src="" alt="">
                         </div>
                         <div class="hotOne_bottom">
                             <img src="https://img.alicdn.com/tfs/TB1APkObOIRMeJjy0FbXXbnqXXa-56-32.png" alt="">
-                            <span>简约时尚创意实木小凳子北欧个性换鞋凳小板</span>
+                            <span></span>
 
                         </div>
-                        <em>¥499</em>
+                        <em></em>
                     </div>
                 </a>
                 <a class="last_a" href="#">
                     <div class="hotOne_big">
                         <div class="hotOne_top">
-                            <img src="https://gma.alicdn.com/bao/uploaded/i1/15381762/TB2CKXNlCYH8KJjSspdXXcRgVXa_!!0-saturn_solar.jpg_200x200.jpg_.webp" alt="">
+                            <img src="" alt="">
                         </div>
                         <div class="hotOne_bottom">
                             <img src="https://img.alicdn.com/tfs/TB1APkObOIRMeJjy0FbXXbnqXXa-56-32.png" alt="">
-                            <span>简约时尚创意实木小凳子北欧个性换鞋凳小板</span>
+                            <span></span>
 
                         </div>
-                        <em>¥499</em>
+                        <em></em>
                     </div>
                 </a>
                 <a class="last_a" href="#">
                     <div class="hotOne_big">
                         <div class="hotOne_top">
-                            <img src="https://gma.alicdn.com/bao/uploaded/i1/15381762/TB2CKXNlCYH8KJjSspdXXcRgVXa_!!0-saturn_solar.jpg_200x200.jpg_.webp" alt="">
+                            <img src="" alt="">
                         </div>
                         <div class="hotOne_bottom">
                             <img src="https://img.alicdn.com/tfs/TB1APkObOIRMeJjy0FbXXbnqXXa-56-32.png" alt="">
-                            <span>简约时尚创意实木小凳子北欧个性换鞋凳小板</span>
+                            <span></span>
 
                         </div>
-                        <em>¥499</em>
+                        <em></em>
                     </div>
                 </a>
                 <a class="last_a" href="#">
                     <div class="hotOne_big">
                         <div class="hotOne_top">
-                            <img src="https://gma.alicdn.com/bao/uploaded/i1/15381762/TB2CKXNlCYH8KJjSspdXXcRgVXa_!!0-saturn_solar.jpg_200x200.jpg_.webp" alt="">
+                            <img src="" alt="">
                         </div>
                         <div class="hotOne_bottom">
                             <img src="https://img.alicdn.com/tfs/TB1APkObOIRMeJjy0FbXXbnqXXa-56-32.png" alt="">
-                            <span>简约时尚创意实木小凳子北欧个性换鞋凳小板</span>
+                            <span></span>
 
                         </div>
-                        <em>¥499</em>
+                        <em></em>
                     </div>
                 </a>
                 <a class="last_a" href="#">
                     <div class="hotOne_big">
                         <div class="hotOne_top">
-                            <img src="https://gma.alicdn.com/bao/uploaded/i1/15381762/TB2CKXNlCYH8KJjSspdXXcRgVXa_!!0-saturn_solar.jpg_200x200.jpg_.webp" alt="">
+                            <img src="" alt="">
                         </div>
                         <div class="hotOne_bottom">
                             <img src="https://img.alicdn.com/tfs/TB1APkObOIRMeJjy0FbXXbnqXXa-56-32.png" alt="">
-                            <span>简约时尚创意实木小凳子北欧个性换鞋凳小板</span>
+                            <span></span>
 
                         </div>
-                        <em>¥499</em>
+                        <em></em>
                     </div>
                 </a>
                 <a class="last_a" href="#">
                     <div class="hotOne_big">
                         <div class="hotOne_top">
-                            <img src="https://gma.alicdn.com/bao/uploaded/i1/15381762/TB2CKXNlCYH8KJjSspdXXcRgVXa_!!0-saturn_solar.jpg_200x200.jpg_.webp" alt="">
+                            <img src="" alt="">
                         </div>
                         <div class="hotOne_bottom">
                             <img src="https://img.alicdn.com/tfs/TB1APkObOIRMeJjy0FbXXbnqXXa-56-32.png" alt="">
-                            <span>简约时尚创意实木小凳子北欧个性换鞋凳小板</span>
+                            <span></span>
 
                         </div>
-                        <em>¥499</em>
+                        <em></em>
                     </div>
                 </a>
                 <a class="last_a" href="#">
                     <div class="hotOne_big">
                         <div class="hotOne_top">
-                            <img src="https://gma.alicdn.com/bao/uploaded/i1/15381762/TB2CKXNlCYH8KJjSspdXXcRgVXa_!!0-saturn_solar.jpg_200x200.jpg_.webp" alt="">
+                            <img src="" alt="">
                         </div>
                         <div class="hotOne_bottom">
                             <img src="https://img.alicdn.com/tfs/TB1APkObOIRMeJjy0FbXXbnqXXa-56-32.png" alt="">
-                            <span>简约时尚创意实木小凳子北欧个性换鞋凳小板</span>
+                            <span></span>
 
                         </div>
-                        <em>¥499</em>
+                        <em></em>
+                    </div>
+                </a>
+                <a class="last_a" href="#">
+                    <div class="hotOne_big">
+                        <div class="hotOne_top">
+                            <img src="" alt="">
+                        </div>
+                        <div class="hotOne_bottom">
+                            <img src="https://img.alicdn.com/tfs/TB1APkObOIRMeJjy0FbXXbnqXXa-56-32.png" alt="">
+                            <span></span>
+
+                        </div>
+                        <em></em>
                     </div>
                 </a>
 
@@ -916,10 +940,10 @@
                     <img src="https://img.alicdn.com/simba/img/TB1kH0Gdb3nBKNjSZFMSuuUSFXa.jpg" alt="">
                 </div>
                 <div class="last_images">
-                    <img src="https://img.alicdn.com/simba/img/TB1kH0Gdb3nBKNjSZFMSuuUSFXa.jpg" alt="">
+                    <img src="https://img.alicdn.com/simba/img/TB1CCFSnjuhSKJjSspjSuwi8VXa.jpg" alt="">
                 </div>
                 <div class="last_images">
-                    <img src="https://img.alicdn.com/simba/img/TB1kH0Gdb3nBKNjSZFMSuuUSFXa.jpg" alt="">
+                    <img src="https://img.alicdn.com/simba/img/TB1dWRml79WBuNjSspeSuuz5VXa.jpg" alt="">
                 </div>
             </div>
 
@@ -938,6 +962,11 @@
 </div>
 
 
-
+<div class="fixed_right">
+    <a class="fixed_right_one" href="#">爱逛好货</a>
+    <a class="fixed_right_two" href="#">好店直播</a>
+    <a class="fixed_right_three" href="#">实惠热卖</a>
+    <a class="fixed_right_four" href="#">回到顶部</a>
+</div>
 </body>
 </html>

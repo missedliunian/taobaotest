@@ -363,6 +363,7 @@
     margin-left: 20px;
     height: 33px;
     border-bottom: 1px solid #e6e2e1;
+
     a{
       display: inline-block;
       color:#999999;
@@ -376,10 +377,14 @@
   }
 }
 
+
+.hotOne_big:hover{
+  border-color: red;
+}
 .hotOne_big{
   width: 237px;
-  height: 350px;
-  border: 1px solid red;
+  height: 345px;
+  border: 1px solid #f4f4f4;
   .hotOne_top{
     margin-left: 20px;
     margin-top: 20px;
@@ -438,5 +443,6 @@
     display: block;
     width: 375px;
     height: 130px;
+    cursor: pointer;
   }
 }
