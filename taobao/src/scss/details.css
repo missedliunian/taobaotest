@@ -351,7 +351,15 @@ body {
       cursor: pointer;
       margin: 20px 5px 0 20px;
       width: 400px;
-      height: 400px; }
+      height: 400px;
+      position: relative; }
+      #detailPage .page_left .smallPic div {
+        width: 200px;
+        height: 200px;
+        background: #9c7dff;
+        opacity: 0.4;
+        display: none;
+        position: absolute; }
       #detailPage .page_left .smallPic img {
         width: 100%; }
     #detailPage .page_left .scale {
@@ -360,8 +368,10 @@ body {
       overflow: hidden;
       position: absolute;
       left: 425px;
-      top: 0;
+      top: 20px;
       display: none; }
+      #detailPage .page_left .scale img {
+        position: absolute; }
     #detailPage .page_left ul {
       width: 400px;
       height: 54px;
@@ -371,7 +381,8 @@ body {
         width: 50px;
         height: 50px;
         float: left;
-        margin: 15px; }
+        margin: 13px;
+        border: 2px solid #fff; }
         #detailPage .page_left ul li img {
           width: 100%; }
 

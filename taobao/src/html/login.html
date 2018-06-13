@@ -2,24 +2,33 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Document</title>
+    <title>登录</title>
     <link rel="stylesheet" href="../scss/login.css">
     <link rel="stylesheet" href="../font/login/iconfont.css">
+    <script async="true" src="../script/lib/require.js" data-main="../script/js/main.js"></script>
 </head>
 <body>
 <div id="login">
-    <form>
+    <form action="../../php/login.php">
         <h2>密码登录</h2>
+        <!--<p>
+            <label for="username"></label>
+            <span>用户名</span><input id="username" name="username" type="text">
+        </p>
+        <p>
+            <label for="password"></label>
+            <span>密码</span><input id="password" name="password" type="password">
+        </p>-->
         <p>
             <i class="iconfont icon-iconlxr"></i>
-            <input type="text" placeholder="会员名/邮箱/手机号">
+            <input class="login_user" type="text" placeholder="会员名/邮箱/手机号">
         </p>
         <p>
             <i class="iconfont icon-mima"></i>
-            <input type="password">
+            <input class="login_pass" type="password">
         </p>
 
-        <button>登录</button>
+        <button class="login_btn">登录</button>
 
         <div>
             <a href="#"><i class="iconfont icon-weibo"></i>微博登录</a>

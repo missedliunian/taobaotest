@@ -177,13 +177,13 @@ define(['jquery'],function ($) {
             });
 
             $('.fixed_right_one').on('click',function () {
-                $("html,body").animate({scrollTop:800}, 500);
+                $("html,body").animate({scrollTop:810}, 500);
             });
             $('.fixed_right_two').on('click',function () {
-                $("html,body").animate({scrollTop:1450}, 500);
+                $("html,body").animate({scrollTop:1460}, 500);
             });
             $('.fixed_right_three').on('click',function () {
-                $("html,body").animate({scrollTop:2400}, 500);
+                $("html,body").animate({scrollTop:2410}, 500);
             });
 
 
