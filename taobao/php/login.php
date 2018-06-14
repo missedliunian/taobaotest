@@ -11,11 +11,11 @@ mysql_query('SET NAMES UTF8');//设置编码方式
 	}
 
 
-	$result=mysql_query("select * from registor where username='$username' and password='$password'");
+	$result=@mysql_query("select * from registor where username='$username' and password='$password'");
 	if(mysql_fetch_array($result)){//有值，登陆通过
 		echo true;
 	}else{
-		echo false;
+		echo 'username or password is error';
 	}
 
 ?>

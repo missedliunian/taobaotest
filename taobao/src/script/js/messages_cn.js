@@ -45,7 +45,7 @@ define(['jquery','jquery.validate'],function () {
                 }*!/
             }*/
     }).done(function (data) {
-        console.log(data);
+        console.log(1);
             if(data == 1){
                 $("#exist_repeat").addClass('error').css({
                     'display':'block'

@@ -11,9 +11,10 @@ require.config({
         'jquery':'jquery.min',  //paths中模块都会自动添加baseUrl的路径
         'jquery.validate':'jquery.validate',
         'messages_cn':'messages_cn',
+        'jquery.cookie':'jquery.cookie'
 
     }
 });
 
 
-require(['../script/js/ajax.js','../script/js/effect.js','../script/js/messages_cn.js','../script/js/login.js','../script/js/details.js','../script/js/search.js']);//异步加载js文件
+require(['../script/js/ajax.js','../script/js/effect.js','../script/js/messages_cn.js','../script/js/login.js'/*,'../script/js/details.js'*/,'../script/js/search.js']);//异步加载js文件

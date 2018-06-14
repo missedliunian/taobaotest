@@ -2,184 +2,230 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Document</title>
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>购物车</title>
     <link rel="stylesheet" href="../scss/cart.css">
-    <link rel="stylesheet" href="../font/font_dvniwrwa6sejnhfr/iconfont.css">
-    <link rel="stylesheet" href="../font/font_zp6ysi3fz17qr529/iconfont.css">
 </head>
 <body>
-<div id="header">
-    <div class="h_nav">
-        <ul class="h_nav_left">
-            <li>中国大陆<i class="iconfont icon-guifandaohangshaixuanzhankai"></i></li>
-            <li class="red"><a href="#">亲，请登录</a></li>
-            <li><a href="#">免费注册</a></li>
-            <li><a href="#">手机逛淘宝</a></li>
-        </ul>
-        <ul class="h_nav_right">
-            <li>
-                <a href="#">我的淘宝<i class="iconfont icon-guifandaohangshaixuanzhankai"></i></a>
-                <ul class="myself">
-                    <li>已买到的宝贝</li>
-                    <li>我的足迹</li>
-                </ul>
+<section class="cartMain">
+    <div class="cartMain_hd">
+        <ul class="order_lists cartTop">
+            <li class="list_chk">
+                <!--所有商品全选-->
+                <input type="checkbox" id="all" class="whole_check">
+                <label for="all"></label>
+                全选
             </li>
-            <li><a href="#"><i class="iconfont icon-gouwucheman"></i>购物车<i class="iconfont icon-0"></i><i class="iconfont icon-guifandaohangshaixuanzhankai"></i></a></li>
-            <li>
-                <a href="#"><i class="iconfont icon-xingxing"></i>收藏夹<i class="iconfont icon-guifandaohangshaixuanzhankai"></i></a>
-                <ul class="collect">
-                    <li>收藏的宝贝</li>
-                    <li>收藏的店铺</li>
-                </ul>
-            </li>
-            <li><a href="#">商品分类</a></li>
-            <li>
-                <a href="#">卖家中心<i class="iconfont icon-guifandaohangshaixuanzhankai"></i></a>
-                <ul class="shopcenter">
-                    <li>免费开店</li>
-                    <li>已卖出的宝贝</li>
-                    <li>出售中的宝贝</li>
-                    <li>卖家服务市场</li>
-                    <li>卖家培训中心</li>
-                    <li>体检中心</li>
-                    <li>问商友</li>
-                </ul>
-            </li>
-            <li>
-                <a href="#">联系客服<i class="iconfont icon-guifandaohangshaixuanzhankai"></i></a>
-                <ul class="customer">
-                    <li>消费者客服</li>
-                    <li>卖家客服</li>
-                </ul>
-            </li>
-            <li>
-                <a href="#">
-                    <i class="iconfont icon-daohang"></i>网站导航<i class="iconfont icon-guifandaohangshaixuanzhankai"></i>
-                </a>
-                <ul class="theme">
-                    <h2>主题市场</h2>
-                    <li>女装</li>
-                    <li>男装</li>
-                    <li>内衣</li>
-                    <li>鞋鞭</li>
-                    <li>女装</li>
-                    <li>男装</li>
-                    <li>内衣</li>
-                    <li>鞋鞭</li>
-                    <li>女装</li>
-                    <li>男装</li>
-                    <li>内衣</li>
-                    <li>鞋鞭</li>
-                    <li>女装</li>
-                    <li>男装</li>
-                    <li>内衣</li>
-                    <li>鞋鞭</li>
-                    <li>女装</li>
-                    <li>男装</li>
-                    <li>内衣</li>
-                    <li>鞋鞭</li>
-                    <li>女装</li>
-                    <li>男装</li>
-                    <li>内衣</li>
-                    <li>鞋鞭</li>
-                    <li>女装</li>
-                    <li>男装</li>
-                    <li>内衣</li>
-                    <li>鞋鞭</li>
-                    <li>女装</li>
-                    <li>男装</li>
-                    <li>内衣</li>
-                    <li>鞋鞭</li>
-                    <li>女装</li>
-                    <li>男装</li>
-                    <li>内衣</li>
-                    <li>鞋鞭</li>
-                </ul>
-            </li>
+            <li class="list_con">商品信息</li>
+            <li class="list_info">商品参数</li>
+            <li class="list_price">单价</li>
+            <li class="list_amount">数量</li>
+            <li class="list_sum">金额</li>
+            <li class="list_op">操作</li>
         </ul>
     </div>
-</div>
 
-
-
-
-<div id="nav">
-    <div class="detail_left">
-        <img src="../img/tttbb.png" alt="">
-    </div>
-    <div class="detail_right">
-        <div>
-            <input type="text">
-            <button class="btn_one">搜淘宝</button>
-            <button class="btn_two">搜天猫</button>
+    <div class="cartBox">
+        <div class="shop_info">
+            <div class="all_check">
+                <!--店铺全选-->
+                <input type="checkbox" id="shop_a" class="shopChoice">
+                <label for="shop_a" class="shop"></label>
+            </div>
+            <div class="shop_name">
+                店铺：<a href="javascript:;">搜猎人艺术生活</a>
+            </div>
         </div>
-
-    </div>
-</div>
-
-<div id="cart">
-    <div class="cart_top">
-        <ul>
-            <li style="color: red;">全部商品 <strong>1</strong></li>
-            <li>降价商品 <strong>0</strong></li>
-            <li>库存紧张 <strong>0</strong></li>
-        </ul>
-        <div class="sum">
-            <span>已选商品（不含运费） </span>
-            <strong> 0.00</strong>
-            <a href="#">结算</a>
-        </div>
-    </div>
-
-    <div class="cart_mid">
-        <div>
-            <input type="checkbox">全选
-            <span>商品信息</span>
-        </div>
-        <ul>
-            <li>单价</li>
-            <li>数量</li>
-            <li>金额</li>
-            <li>操作</li>
-        </ul>
-
-    </div>
-
-    <div class="cart_bottom">
-        <ul>
-            <li class="bot_one"><input type="checkbox"></li>
-            <li class="bot_two"><img src="../img/car0.jpg" alt=""></li>
-            <li class="bot_three"><a href="#">香港CAMINO钢铁侠Mark43半身蓝牙音箱|限量366套音响1:1精心复刻</a></li>
-            <li class="bot_four">￥19999.00</li>
-            <li class="bot_five">1</li>
-            <li class="bot_six">￥19999.00</li>
-            <li class="bot_seven">
-                <span><a href="#">移入收藏夹</a></span>
-                <em><a href="">删除</a></em>
-            </li>
-
-        </ul>
-    </div>
-
-
-
-    <div class="cart_last">
-        <div class="cart_l_input"><input type="checkbox">全选
-        </div>
-        <ul>
-            <li><a href="">删除</a></li>
-            <li><a href="">移入收藏夹</a></li>
-            <li><a href="">分享</a></li>
-        </ul>
-        <div class="cart_r_ff">
-            <span class="s_one">已选商品<strong> 0 </strong>件</span>
-            <span class="s_two">合计(不含运费)：</span>
-            <strong> 0.00 </strong>
-            <span class="s_three"><a href="">结算</a></span>
+        <div class="order_content">
+            <ul class="order_lists">
+                <li class="list_chk">
+                    <input type="checkbox" id="checkbox_2" class="son_check">
+                    <label for="checkbox_2"></label>
+                </li>
+                <li class="list_con">
+                    <div class="list_img"><a href="javascript:;"><img src="../img/1.png" alt=""></a></div>
+                    <div class="list_text"><a href="javascript:;">L'OREAL 欧莱雅男士水能保湿酷爽水凝露爽肤水120ml补水保湿锁水</a></div>
+                </li>
+                <li class="list_info">
+                    <p>规格：默认</p>
+                    <p>尺寸：16*16*3(cm)</p>
+                </li>
+                <li class="list_price">
+                    <p class="price">￥980</p>
+                </li>
+                <li class="list_amount">
+                    <div class="amount_box">
+                        <a href="javascript:;" class="reduce reSty">-</a>
+                        <input type="text" value="1" class="sum">
+                        <a href="javascript:;" class="plus">+</a>
+                    </div>
+                </li>
+                <li class="list_sum">
+                    <p class="sum_price">￥980</p>
+                </li>
+                <li class="list_op">
+                    <p class="del"><a href="javascript:;" class="delBtn">移除商品</a></p>
+                </li>
+            </ul>
+            <ul class="order_lists">
+                <li class="list_chk">
+                    <input type="checkbox" id="checkbox_3" class="son_check">
+                    <label for="checkbox_3"></label>
+                </li>
+                <li class="list_con">
+                    <div class="list_img"><a href="javascript:;"><img src="../img/2.png" alt=""></a></div>
+                    <div class="list_text"><a href="javascript:;">法国碧欧泉男士水动力乳液75ml男补水保湿润肤露金鹰汇护肤化妆品</a></div>
+                </li>
+                <li class="list_info">
+                    <p>规格：默认</p>
+                    <p>尺寸：16*16*3(cm)</p>
+                </li>
+                <li class="list_price">
+                    <p class="price">￥780</p>
+                </li>
+                <li class="list_amount">
+                    <div class="amount_box">
+                        <a href="javascript:;" class="reduce reSty">-</a>
+                        <input type="text" value="1" class="sum">
+                        <a href="javascript:;" class="plus">+</a>
+                    </div>
+                </li>
+                <li class="list_sum">
+                    <p class="sum_price">￥780</p>
+                </li>
+                <li class="list_op">
+                    <p class="del"><a href="javascript:;" class="delBtn">移除商品</a></p>
+                </li>
+            </ul>
+            <ul class="order_lists">
+                <li class="list_chk">
+                    <input type="checkbox" id="checkbox_6" class="son_check">
+                    <label for="checkbox_6"></label>
+                </li>
+                <li class="list_con">
+                    <div class="list_img"><a href="javascript:;"><img src="../img/3.png" alt=""></a></div>
+                    <div class="list_text"><a href="javascript:;">纽康特neocate中文版1段氨基酸配方粉400g 适用婴儿牛奶蛋白过敏</a></div>
+                </li>
+                <li class="list_info">
+                    <p>规格：默认</p>
+                    <p>尺寸：16*16*3(cm)</p>
+                </li>
+                <li class="list_price">
+                    <p class="price">￥180</p>
+                </li>
+                <li class="list_amount">
+                    <div class="amount_box">
+                        <a href="javascript:;" class="reduce reSty">-</a>
+                        <input type="text" value="1" class="sum">
+                        <a href="javascript:;" class="plus">+</a>
+                    </div>
+                </li>
+                <li class="list_sum">
+                    <p class="sum_price">￥180</p>
+                </li>
+                <li class="list_op">
+                    <p class="del"><a href="javascript:;" class="delBtn">移除商品</a></p>
+                </li>
+            </ul>
         </div>
     </div>
 
-</div>
+    <!--<div class="cartBox">
+        <div class="shop_info">
+            <div class="all_check">
+                &lt;!&ndash;店铺全选&ndash;&gt;
+                <input type="checkbox" id="shop_b" class="shopChoice">
+                <label for="shop_b" class="shop"></label>
+            </div>
+            <div class="shop_name">
+                店铺：<a href="javascript:;">卷卷旗舰店</a>
+            </div>
+        </div>
+        <div class="order_content">
+            <ul class="order_lists">
+                <li class="list_chk">
+                    <input type="checkbox" id="checkbox_4" class="son_check">
+                    <label for="checkbox_4"></label>
+                </li>
+                <li class="list_con">
+                    <div class="list_img"><a href="javascript:;"><img src="../img/4.png" alt=""></a></div>
+                    <div class="list_text"><a href="javascript:;">3头电动剃须刀FS356充电式刮胡刀男三头水洗正品原装飞科智能全身</a></div>
+                </li>
+                <li class="list_info">
+                    <p>规格：默认</p>
+                    <p>尺寸：16*16*3(cm)</p>
+                </li>
+                <li class="list_price">
+                    <p class="price">￥1980</p>
+                </li>
+                <li class="list_amount">
+                    <div class="amount_box">
+                        <a href="javascript:;" class="reduce reSty">-</a>
+                        <input type="text" value="1" class="sum">
+                        <a href="javascript:;" class="plus">+</a>
+                    </div>
+                </li>
+                <li class="list_sum">
+                    <p class="sum_price">￥1980</p>
+                </li>
+                <li class="list_op">
+                    <p class="del"><a href="javascript:;" class="delBtn">移除商品</a></p>
+                </li>
+            </ul>
+            <ul class="order_lists">
+                <li class="list_chk">
+                    <input type="checkbox" id="checkbox_5" class="son_check">
+                    <label for="checkbox_5"></label>
+                </li>
+                <li class="list_con">
+                    <div class="list_img"><a href="javascript:;"><img src="../img/5.png" alt=""></a></div>
+                    <div class="list_text"><a href="javascript:;">心相印卷纸 心柔纸巾3层140g*27粒有芯卫生纸品整箱 新老包装随机</a></div>
+                </li>
+                <li class="list_info">
+                    <p>规格：默认</p>
+                    <p>尺寸：16*16*3(cm)</p>
+                </li>
+                <li class="list_price">
+                    <p class="price">￥480</p>
+                </li>
+                <li class="list_amount">
+                    <div class="amount_box">
+                        <a href="javascript:;" class="reduce reSty">-</a>
+                        <input type="text" value="1" class="sum">
+                        <a href="javascript:;" class="plus">+</a>
+                    </div>
+                </li>
+                <li class="list_sum">
+                    <p class="sum_price">￥480</p>
+                </li>
+                <li class="list_op">
+                    <p class="del"><a href="javascript:;" class="delBtn">移除商品</a></p>
+                </li>
+            </ul>
+        </div>
+    </div>-->
 
+    
+
+    <!--底部-->
+    <div class="bar-wrapper">
+        <div class="bar-right">
+            <div class="piece">已选商品<strong class="piece_num">0</strong>件</div>
+            <div class="totalMoney">共计: <strong class="total_text">0.00</strong></div>
+            <div class="calBtn"><a href="javascript:;">结算</a></div>
+        </div>
+    </div>
+</section>
+<section class="model_bg"></section>
+<section class="my_model">
+    <p class="title">删除宝贝<span class="closeModel">X</span></p>
+    <p>您确认要删除该宝贝吗？</p>
+    <div class="opBtn"><a href="javascript:;" class="dialog-sure">确定</a><a href="javascript:;" class="dialog-close">关闭</a></div>
+</section>
+<script src="../script/lib/jquery.min.js"></script>
+<script src="../script/lib/jquery.cookie.js"></script>
+<script src="../script/js/shopcarts.js"></script>
 </body>
 </html>
