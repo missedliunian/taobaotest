@@ -75,12 +75,19 @@
 
 
 
-    /*function ranNum(min,max){
-        return Math.floor(Math.random()*max+min);
-    }*/
+
 
     $('.buyNext').on('click',function () {
-        $.cookie('id',1, { expires: 7, path: '/' });
+        if($.cookie('id')){
+            if($.cookie('id')==0){
+                $.cookie('id',1, { expires: 7, path: '/' });
+            }else{
+                $.cookie('id',0, { expires: 7, path: '/' });
+            }
+        }else{
+            $.cookie('id',0, { expires: 7, path: '/' });
+        }
+
         location.href='cart.html';
     });
 
